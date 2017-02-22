@@ -1,8 +1,8 @@
 ---
-title: 测试啦测试啦
-date: 2015-03-21 16:32:27
-tags: 技术1
-categories: 技术
+title: 关于python之闭包
+date: 2016-03-21 16:32:27
+tags: python
+categories: 开发
 ---
 这是一条测试的博客
 <!--more-->

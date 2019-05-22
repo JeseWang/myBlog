@@ -3,49 +3,40 @@
     <div id="wave"></div>
     <div class="content">
       <div class="home-header">
-        <router-link class="link"
-                     to="/home">
-          <img class="home-logo"
-               src="../assets/logo.jpg"
-               alt="jesse logo" />
+        <router-link class="link" to="/home">
+          <img class="home-logo" src="../assets/logo.jpg" alt="jesse logo">
         </router-link>
       </div>
       <div class="home-body">
         <div class="list">
-          <router-link class="link"
-                       to="/articles">
-            文章
-          </router-link>
-          <router-link class="link"
-                       to="/project">
-            项目
-          </router-link>
-          <a target="_blank"
-             rel="noopener noreferrer"
-             class="link"
-             href="https://github.com/JeseWang">
-            github
-          </a>
-          <a target="_blank"
-             rel="noopener noreferrer"
-             class="link"
-             href="https://juejin.im/user/57f60ab75bbb50005b0de021">
-            掘金
-          </a>
-          <a target="_blank"
-             rel="noopener noreferrer"
-             class="link"
-             href="https://www.zhihu.com/people/jessewang1024">
-            知乎
-          </a>
-          <a target="_blank"
-             rel="noopener noreferrer"
-             class="link"
-             href="https://www.jianshu.com/u/92fadaa2666a">
-            简书
-          </a>
+          <router-link class="link" to="/articles">文章</router-link>
+          <router-link class="link" to="/project">项目</router-link>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link"
+            href="https://github.com/JeseWang"
+          >github</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link"
+            href="https://juejin.im/user/57f60ab75bbb50005b0de021"
+          >掘金</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link"
+            href="https://www.zhihu.com/people/jessewang1024"
+          >知乎</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            class="link"
+            href="https://www.jianshu.com/u/92fadaa2666a"
+          >简书</a>
         </div>
-        <div class="introduce"> 向前走，回头看，Keep Learning </div>
+        <div class="introduce">向前走，回头看，Keep Learning</div>
       </div>
     </div>
   </div>

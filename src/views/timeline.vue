@@ -1,21 +1,19 @@
 <template>
   <div class="timeline left">
     <el-timeline>
-      <el-timeline-item v-for="(l, i) in list"
-                        :key="l._id"
-                        :color="l.state === 1 ? 'green' : l.state === 3 ? 'red' : ''"
-                        placement="top"
-                        hide-timestamp>
+      <el-timeline-item
+        v-for="l in list"
+        :key="l._id"
+        :color="l.state === 1 ? 'green' : l.state === 3 ? 'red' : ''"
+        placement="top"
+        hide-timestamp
+      >
         <el-card>
           <h3>{{l.title}}</h3>
           <p>{{l.content}}</p>
           <p>
-            <span>
-              {{formatTime(l.start_time)}}--
-            </span>
-            <span>
-              {{formatTime(l.end_time)}}
-            </span>
+            <span>{{formatTime(l.start_time)}}--</span>
+            <span>{{formatTime(l.end_time)}}</span>
           </p>
         </el-card>
       </el-timeline-item>

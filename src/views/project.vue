@@ -3,7 +3,7 @@
     <el-row :gutter="20">
       <el-col class="el-col-pointer"
               :span="isMobileOrPc ? 24 : 12"
-              v-for="(l, index) in list"
+              v-for="l in list"
               :key="l._id"
               style="margin-bottom: 20px">
         <a :href="l.url"

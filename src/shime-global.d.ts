@@ -7,3 +7,8 @@ declare var THREE: any;
 
 declare module "element-ui/lib/transitions/collapse-transition";
 declare module "element-ui";
+
+declare module '*.vue' {
+  import Vue from 'vue'
+  export default Vue
+}
